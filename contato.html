@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="main_title" class="gabriela-regular">Livros e Café</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>Sobre</li>
+                <li>
+                    <a href="menu.html">Menu</a>
+                </li>
+                <li>Galeria</li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <h2>Contato</h2>
+            <p>Entre em contato com a cafeteria solicitando orçamento de bolos e cafés da manhã.</p>
+
+            <form class="budget_form">
+                <fieldset>
+                    <legend>Orçamento</legend>
+
+                    <label for="fullname">Nome</label>
+                    <input class="text_field" type="text" id="fullname" name="fullname">
+
+                    <label for="tel">Telefone</label>
+                    <input class="text_field" type="text" id="tel" name="tel">
+
+                    <label for="textarea">Pedido</label>
+                    <textarea class="text_field" id="pedido" name="pedido"></textarea>
+                    <input class="submit_button" type="submit" value="Enviar">
+                </fieldset>
+                
+            </form>
+        </section>
+
+        <footer>
+            <p>Serra, Manguinhos Phone: 413 555 555</p>
+            <p>Aberto Segunda a Domingo - das 07:00 às 21:00</p>
+        </footer>
+    </div>
+</body>
+</html>

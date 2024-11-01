@@ -1,0 +1,103 @@
+/* index, menu, contato */
+body { background-color: #ffedbf; }
+
+div.container
+{
+    background-color: #fffdd0;
+    width: 960px;                   /* width aparenta mexer com a largura do div */
+    margin: auto;                   /* margin aparente mexer com o posicionamento div em relação ao componente pai */
+
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header, footer
+{
+    background-color: #9b2948;
+    padding-left: 10px;
+    color: whitesmoke;
+}
+
+footer p { margin: 5px; }
+
+.gabriela-regular
+{
+    font-family: "Gabriela", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a:link { color: #981b1b; }
+a:visited { color: #5d182b; }
+a:hover { color: #b24f38; }
+
+a { text-decoration: none; }    /* Esta tag aparenta dar características adicionais ao texto para além dos caracteres */
+
+#home_img { size: 960px; }
+
+/* menu */
+table.menu
+{
+    text-align: center;
+    border-collapse: collapse;
+    width: 400px;
+    margin:auto;
+}
+
+table.menu td
+{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+table.menu td img
+{
+    border-radius: 25px;
+    width: 100%;
+}
+
+table.menu tr:hover{ background-color: #ffe298; }
+
+/* contato */
+form.budget_form 
+{
+    width: 60%;
+    margin:auto;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.budget_form fieldset
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.budget_form input.text_field
+{
+    width: 50%;
+    height: 25px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.budget_form textarea.text_field
+{
+    height: 100px;
+    margin-bottom: 12px;
+}
+
+.budget_form .text_field:focus
+{
+    background-color: #f6eee3;
+}
+
+.budget_form input.submit_button
+{
+    width: 105px;
+    height: 35px;
+    background-color: #FAF0E6;
+}
